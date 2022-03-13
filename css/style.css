@@ -3,9 +3,40 @@ html, body {
   padding: 0px;
 }
 
-#hero{
-  background-image: url"images/background/image1.jpg";
-  ;
-  
+.container-fluid{
+  background-image: url("../images/background/image1.jpg") ;
+  text-align: center;
+  height: 400px;
+  position: relative;
+}
+.starter-content{
+  margin-top: 100px;
+  align-items: center;
+  position: absolute;
+  margin-left: 200px;
+  color: white;
+
+}
+.container-fluid1{
+  background-image: url("../images/background/image2.jpg");
+  height: 300px;
+}
+.content{
+  margin-top: 100px;
+  align-items: center;
+  position: absolute;
+  margin-left:200px;
+  color: white;
+}
+.what-we-do{
+display: inline;
 }
 
+.portfolio{
+ 
+
+}
+
+.contact{
+  background-image: url("../images/background/image3.jpg") ;
+}
