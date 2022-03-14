@@ -61,10 +61,16 @@ html, body {
 .contact{
   background-image: url("../images/background/image3.jpg") ;
   text-decoration-color: black;
+  border-color: black;
+
 }
 
 .row g-3{
   color: black;
+  border-color: black;
+}
+.form-floating{
+
 }
 .widget{
   margin-left: 320px;
