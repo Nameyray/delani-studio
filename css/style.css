@@ -4,9 +4,9 @@ html, body {
 }
 
 .container-fluid{
-  background-image: url("../images/background/image1.jpg") ;
+  background-image: url("../images/background/h_img.jpg") ;
   text-align: center;
-  height: 350px;
+  height: 400px;
   position: relative;
 }
 .starter-content{
@@ -23,45 +23,41 @@ html, body {
 }
 .logo{
   list-style-image: unset;
-  position: absolute;
-  align-items: baseline;
+  position: inherit;
+  align-items: center;
   margin-top: 100px;
-  margin-bottom: 100px
+  margin-bottom: 50px;
+  margin-left: 50px;
+  
 }
 .mouse-click{
   list-style: none;
-  position: relative;
-  margin-top: 70px;
+  position: absolute;
+  margin-top: 100px;
 }
 .content{
-  margin-top: 100px;
+  margin-top: 150px;
   align-items: center;
   position: absolute;
-  margin-left:200px;
+  margin-left:300px;
   color: white;
 }
-.work{
- padding-left: 120px;
- padding-right: 120px; 
-}
-.one{
-  float: left;
-}
-.two{
-  float: center;
-}
-.three{
-  float: right;
-}
+
+
 .portfolio{
  
 
 }
 
 .contact{
-  background-image: url("../images/background/image3.jpg") ;
+  background-image: url("../images/background/image3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: initial;
   text-decoration-color: black;
   border-color: black;
+  background-color: black;
+  display: flex;
 
 }
 
