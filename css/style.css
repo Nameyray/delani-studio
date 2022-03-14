@@ -44,31 +44,62 @@ html, body {
   position: absolute;
   margin-left:300px;
   color: white;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left: 25px;
+}
+#p1{
+  margin-left: 40px;
 }
 
 .work{
   margin-left: 120px;
-  margin-right: 120px;
+  margin-right: 100px;
+}
+#wwd{
+  font-style: bold;
+  text-align: center;
 }
 .one{
   float: left;
-  width: 25%;
-  padding: 2px;
+  width: 35%;
+  padding: 4px;
   margin: auto;
-  
+}
+#dsn{
+  display: table-footer-group;
+  font-size: small;
 }
 .two{
   float: left;
-  width: 25%;
-  padding: 2px;
+  width: 35%;
+  padding: 10px;
+}
+#dvlt{
+  display: table-footer-group;
+  font-size: small;
 }
 .three{
   float: left;
-  width: 25%;
-  padding: 2px;
+  width: 30%;
+  padding: 6px;
+}
+#mngt{
+  display: table-footer-group;
+  font-size: small;
+  float: center;
+  
 }
 .portfolio{
- 
+ text-align: center;
+ margin-top: 100px;
+ margin-bottom: 100px;
+}
+#ptf{
+  align-items: center;
+  display: flex;
+  margin-left: 600px;
+  
 }
 #h3{
   text-align: center;
@@ -80,11 +111,13 @@ html, body {
   align-items: unset;
 
 }
-
 .contact{
- background-image: url("../images/background/image3.jpg");
+  margin-bottom: 300px;
+  margin-top: 100px;
+
 }
 
+x
 .row g-3{
   color: black;
   border-color: black;

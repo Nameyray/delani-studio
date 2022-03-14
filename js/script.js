@@ -1,5 +1,5 @@
 $(document).ready(function(){  
-  $(".clickable").click(function)() {
+  $(".clickable").click(function()) {
    $(".one").toggle();
    $(".two").toggle();
    $(".three").toggle();
@@ -11,13 +11,11 @@ $(document).ready(function(){
    });
  }); 
  
- function  ('message'); {
-     alert(Name + 'we have received your message. Thank you for reaching out to us');
-     
-   }
+ let messageData = messageData();
+ alert(Name + 'we have received your message. Thank you for reaching out to us');
 
 
 
 
 
-
+ 
