@@ -54,6 +54,7 @@ html, body {
   float: left;
   width: 25%;
   padding: 2px;
+  margin: auto;
   
 }
 .two{
@@ -93,9 +94,12 @@ background-color: black;
 }
 .widget{
   margin-left: 320px;
+  background-color: white;
+  padding: 4px;
 }
 .content-below{
   margin-left: 500px;
   font-weight: 30px;
   font-size: xx-small;
+  background-color: white;
 }
