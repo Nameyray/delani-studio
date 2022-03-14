@@ -11,10 +11,9 @@ $(document).ready(function(){
    });
  }); 
  
- var yourMessageHere = message;
-   if (message == yourMessageHere && Name && Email) {
+ function  ('message'); {
      alert(Name + 'we have received your message. Thank you for reaching out to us');
-     return true;
+     
    }
 
 
