@@ -11,7 +11,7 @@ $(document).ready(function(){
    });
  }); 
  
- let messageData = messageData();
+ let message = yourMessageHere();
  alert(Name + 'we have received your message. Thank you for reaching out to us');
 
 
