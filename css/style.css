@@ -48,9 +48,29 @@ html, body {
   margin-bottom: 50px;
   margin-left: 25px;
 }
-#p1{
-  margin-left: 40px;
+#abt{
+  text-align: center;
 }
+#par1{
+  text-align: center;
+  font-size: medium;
+}
+#par2{
+  text-align: center;
+}
+#par3{
+  text-align: center;
+}
+.services{
+  display: flex;
+  margin-bottom: 50px;
+ 
+}
+.paragraph{
+  text-align: center;
+  margin-right: 50px;
+}
+
 
 .work{
   margin-left: 120px;
@@ -64,20 +84,29 @@ html, body {
   float: left;
   width: 35%;
   padding: 4px;
-  margin: auto;
+  
 }
 #dsn{
   display: table-footer-group;
   font-size: small;
 }
+#p1{
+  display: none;
+  float: left;
+}
 .two{
   float: left;
   width: 35%;
   padding: 10px;
+
 }
 #dvlt{
   display: table-footer-group;
   font-size: small;
+  text-align: center;
+}
+#p2{
+  display: none;
 }
 .three{
   float: left;
@@ -88,12 +117,16 @@ html, body {
   display: table-footer-group;
   font-size: small;
   float: center;
-  
+  text-align: center;
+}
+#p3{
+  display: none;
 }
 .portfolio{
  text-align: center;
  margin-top: 100px;
  margin-bottom: 100px;
+ 
 }
 #ptf{
   align-items: center;
@@ -109,15 +142,34 @@ html, body {
   float: left;
   width: fit-content;
   align-items: unset;
+  padding: 1%;
+  padding-right: 8%;
+  padding-left: 8%;
+  margin: 10px;
+  justify-content: space-evenly;
+  $grid-columns:      12;
+  $grid-gutter-width: 1.5rem;
+  
+  @media screen and (max-width: 800px) {
+    .box{
+      width :40%;
+    }   
+  } @media screen and (max-width: 400px) {
+    .box{
+      width :40%;
+    }   
+  } 
 
+    
+  }
 }
 .contact{
-  margin-bottom: 300px;
-  margin-top: 100px;
-  background-image:url("../images/background/image3.jpg" );
-  width: 100%;
-  background-position: 100%;
-  display: inline-block;
+  background-image: url("../images/background/image3.jpg");
+}
+#cnt{
+  text-align: center;
+  margin-bottom: 3%;
+  position:;
 }
 
 
@@ -131,13 +183,14 @@ background-color: black;
 }
 .widget{
   margin-left: 320px;
-  background-color: white;
+
   padding: 4px;
+  margin-top: 10%;
 }
 .content-below{
   margin-left: 500px;
   font-weight: 30px;
   font-size: xx-small;
-  background-color: white;
+  
 
 }
