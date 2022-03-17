@@ -48,8 +48,8 @@ $(document).ready(function(){
   
   
 $("form").submit(function () {
-  let inputname = $("input#inputname").val()
-  alert("Hello " + inputname + ", we have received their message and thank you for contacting us")
+  let inputname = $("input#inputname").val();
+  alert(  "Hello, we have received your message and thank you for contacting us")
 
 });
 
