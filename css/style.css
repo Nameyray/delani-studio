@@ -152,7 +152,6 @@ html, body {
 }
 #h3{
   text-align: center;
-  float: ;
 }
 .img1{
   padding-top: 1%;
@@ -173,7 +172,7 @@ html, body {
 
     
   }
-}
+
 .img1{
   margin-bottom: 3%;
 }
@@ -242,7 +241,7 @@ html, body {
 .contact{
   background-image: url("../images/background/image3.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   width: 100%;
  
   height: 60%;
@@ -272,12 +271,50 @@ background-color: black;
   margin-left: 320px;
 
   padding: 4px;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 .content-below{
   margin-left: 500px;
   font-weight: 30px;
   font-size: xx-small;
-  
 
+}
+
+img.work1, img.work2, img.work3, img.work4, img.work5, img.work6, img.work7, img.work8{
+  cursor: pointer;
+}
+img#one, img#two, img#three{
+  cursor: pointer;
+}
+h6#dsn, h6#dvlt, h6#mngt{
+  cursor: pointer;
+}
+.image-item:hover img.work1{
+  opacity: 0.5;
+}
+.col-sm-6.col-md-3.mb-2{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.col-sm-6.col-md-3{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+p1.pp1, .pp2, .pp3, .pp4, .pp5, .pp6, .pp7, .pp8{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+img.content-select1, img.content-select2, img.content-select3{
+  cursor: pointer;
+}
+h6.content-select1, h6.content-select2, h6.content-select3{
+  cursor: pointer;
+}
+img{
+  cursor: pointer;
 }

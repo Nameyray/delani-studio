@@ -1,57 +1,78 @@
-$(document).ready(function(){  
-  $(".clickable").click(function(){
-   $(".one").toggle();
-   $(".two").toggle();
-   $(".three").toggle();
+
+
+$(document).ready(function() {
+  $('.content-select1').click(function() {
+    $('.content-show1').toggle("slide");
   });
-  $(".one").click(function(){
-    $("img#one").toggle();
-    $("p#p1").toggle();
-  })
-  $(".two").click(function(){
-    $("img#two").toggle();
-    $("p#p2").toggle();
-  })
-  $(".three").click(function(){
-    $("img#three").toggle();
-    $("p#p3").toggle();
-  })
+  $('.content-select2').click(function() {
+    $('.content-show2').toggle("slide");
+  });
+  $('.content-select3').click(function() {
+    $('.content-show3').toggle("slide");
+  });
 });
+$(document).ready(function(){
+  var inputName=document.getElementById("inputname");
+  $("form").submit(function(){
+    alert(inputName + "we have received your message. Thank you for reaching out to us");
+   });
+})
 
-
-
-  
-    $(".work1").hover(function () {
-      $(".p1").toggle()
-    });
-    $(".work2").hover(function () {
-      $(".p2").toggle()
-    });
-    $(".work3").hover(function () {
-      $(".p3").toggle()
-    });
-    $(".work4").hover(function () {
-      $(".p4").toggle()
-    });
-    $(".work5").hover(function () {
-      $(".p5").toggle()
-    });
-    $(".work6").hover(function () {
-      $(".p6").toggle()
-    });
-    $(".work7").hover(function () {
-      $(".p7").toggle()
-    });
-    $(".work8").hover(function () {
-      $(".p8").toggle()
-    });
-  
-  
-$("form").submit(function () {
-  let inputname = $("input#inputname").val();
-  alert(  "Hello, we have received your message and thank you for contacting us")
-
-});
-
-
-  
+$(document).ready(function(){
+  $('.image-text').hover(function(){
+    $(this).stop().animate({"opacity": 0.5});
+    $(this).find('.pp1').fadeIn(300);
+  }, function() {
+    $(this).stop().animate({"opacity": 1});
+    $(this).find('.pp1').fadeOut(300);
+  })
+  $('.image-text').hover(function(){
+    $(this).stop().animate({"opacity": 0.5});
+    $(this).find('.pp2').fadeIn(300);
+  }, function() {
+    $(this).stop().animate({"opacity": 1});
+    $(this).find('.pp2').fadeOut(300);
+  })
+  $('.image-text').hover(function(){
+    $(this).stop().animate({"opacity": 0.5});
+    $(this).find('.pp3').fadeIn(300);
+  }, function() {
+    $(this).stop().animate({"opacity": 1});
+    $(this).find('.pp3').fadeOut(300);
+  })
+  $('.image-text').hover(function(){
+    $(this).stop().animate({"opacity": 0.5});
+    $(this).find('.pp4').fadeIn(300);
+  }, function() {
+    $(this).stop().animate({"opacity": 1});
+    $(this).find('.pp4').fadeOut(300);
+  })
+  $('.image-text').hover(function(){
+    $(this).stop().animate({"opacity": 0.5});
+    $(this).find('.pp5').fadeIn(300);
+  }, function() {
+    $(this).stop().animate({"opacity": 1});
+    $(this).find('.pp5').fadeOut(300);
+  })
+  $('.image-text').hover(function(){
+    $(this).stop().animate({"opacity": 0.5});
+    $(this).find('.pp6').fadeIn(300);
+  }, function() {
+    $(this).stop().animate({"opacity": 1});
+    $(this).find('.pp6').fadeOut(300);
+  })
+  $('.image-text').hover(function(){
+    $(this).stop().animate({"opacity": 0.5});
+    $(this).find('.pp7').fadeIn(300);
+  }, function() {
+    $(this).stop().animate({"opacity": 1});
+    $(this).find('.pp7').fadeOut(300);
+  })
+  $('.image-text').hover(function(){
+    $(this).stop().animate({"opacity": 0.5});
+    $(this).find('.pp8').fadeIn(300);
+  }, function() {
+    $(this).stop().animate({"opacity": 1});
+    $(this).find('.pp8').fadeOut(300);
+  })
+})
