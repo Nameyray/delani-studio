@@ -19,17 +19,7 @@ $(document).ready(function(){
 });
 
 
-$("#inputname").submit(function(event){
-  $("form").submit(function();
-  alert(inputName + "we have received your message. Thank you for reaching out to us.")
- 
-});
 
-let form = document.getElementsByInputName("form")[0];
-form.addEventListener("submit", (e) => {
-  alert(inputname + "we have received your message. Thank you for reaching out to us");
-});
-  
   
     $(".work1").hover(function () {
       $(".p1").toggle()
@@ -57,5 +47,11 @@ form.addEventListener("submit", (e) => {
     });
   
   
+$("form").submit(function () {
+  let inputname = $("input#inputname").val()
+  alert("Hello " + inputname + ", we have received their message and thank you for contacting us")
+
+});
+
 
   
