@@ -19,37 +19,38 @@ $(document).ready(function(){
 });
 
 
-$("#inputname"). submit(function(event){
+$("#inputname").submit(function(event){
+  $("form").submit(function();
   alert(inputName + "we have received your message. Thank you for reaching out to us.")
-  event.preventDefault();
+ 
 });
   
   
     $(".work1").hover(function () {
-      $("#p1").toggle()
+      $(".p1").toggle()
     });
     $(".work2").hover(function () {
-      $("#p2").toggle()
+      $(".p2").toggle()
     });
     $(".work3").hover(function () {
-      $("#p3").toggle()
+      $(".p3").toggle()
     });
     $(".work4").hover(function () {
-      $("#p4").toggle()
+      $(".p4").toggle()
     });
     $(".work5").hover(function () {
-      $("#p5").toggle()
+      $(".p5").toggle()
     });
     $(".work6").hover(function () {
-      $("#p6").toggle()
+      $(".p6").toggle()
     });
     $(".work7").hover(function () {
-      $("#p7").toggle()
+      $(".p7").toggle()
     });
     $(".work8").hover(function () {
-      $("#p8").toggle()
+      $(".p8").toggle()
     });
   
   
-  });
+
   
