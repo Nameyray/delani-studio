@@ -226,6 +226,8 @@ html, body {
 }
 .form{
   background-color: none;
+  color: transparent;
+  background: transparent;
 
 }
 

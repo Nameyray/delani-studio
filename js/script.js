@@ -24,6 +24,11 @@ $("#inputname").submit(function(event){
   alert(inputName + "we have received your message. Thank you for reaching out to us.")
  
 });
+
+let form = document.getElementsByInputName("form")[0];
+form.addEventListener("submit", (e) => {
+  alert(inputname + "we have received your message. Thank you for reaching out to us");
+});
   
   
     $(".work1").hover(function () {
