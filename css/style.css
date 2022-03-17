@@ -186,9 +186,30 @@ html, body {
 .work6 { left: 1%; position: relative; }
 .work7  { left: 2%; position: relative; }
 .work8  { left: 3%; position: relative; }
-.contact{
-  background-image: url("../images/background/image3.jpg");
-  width: 100%;
+
+#p1{
+  display: none;
+}
+#p2{
+  display: none;
+}
+#p3{
+  display: none;
+}
+#p4{
+  display: none;
+}
+#p5{
+  display: none;
+}
+#p6{
+  display: none;
+}
+#p7{
+  display: none;
+}
+#p8{
+  display: none;
 }
 #cnt{
   text-align: center;
@@ -197,14 +218,33 @@ html, body {
 }
 
 
-.row{
+.form-row{
  background-color: none;
  background: transparent;
+ display: contents;
  
   
 }
+.contact-image{
+  padding: 100px; 
+  height: 50%;
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  }
 .form-floating{
 background-color: black;
+}
+.form{
+  margin-top: 5%;
+  display: contents;
+
+} 
+
+.form-control {
+  background-color: unset ; 
 }
 .widget{
   margin-left: 320px;
